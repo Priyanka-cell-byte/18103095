@@ -6,9 +6,8 @@ import java.lang.Integer;
 public class Main {
 
     public static void main(String[] args) {
-        Integer num = -1;
-        Scanner sc = new Scanner(System.in);
-        byte byteNum = num.byteValue();
+        initial num = -1;
+        byte byteNum = (byte)initial num;
         char charNum = (char)byteNum;
         int finalInt = charNum;
         System.out.println(finalInt);
