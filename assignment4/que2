@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+import java.lang.Integer;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Integer num = -1;
+        Scanner sc = new Scanner(System.in);
+        byte byteNum = num.byteValue();
+        char charNum = (char)byteNum;
+        int finalInt = charNum;
+        System.out.println(finalInt);
+    }
+}
+
+/*   REASON   */
+/*byte data type is of 8 bit number with range of -128 to +127.
+So -1 will remain same then integer is typecasted to guide
+The char data type has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
+The final result is 65,535
+ */
